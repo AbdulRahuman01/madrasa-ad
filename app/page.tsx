@@ -191,20 +191,30 @@ export default function Home() {
               onMouseLeave={e => { (e.target as HTMLElement).style.color='#555';(e.target as HTMLElement).style.background='transparent'; }}
             >{l}</a>
           ))}
-          <div style={{ width:1,height:28,background:'rgba(0,0,0,.1)',margin:'0 10px' }} />
-          <a href="https://docs.google.com/forms/d/..." className="dm" style={{ background:'linear-gradient(135deg,#2d8a44,#3da355)',color:'#fff',fontWeight:600,fontSize:12,letterSpacing:'.1em',textTransform:'uppercase',textDecoration:'none',padding:'10px 20px',borderRadius:8,boxShadow:'0 4px 14px rgba(45,138,68,.3)',transition:'all .25s',display:'flex',alignItems:'center',gap:6 }}
-            onMouseEnter={e => { e.currentTarget.style.transform='translateY(-1px)'; }}
-            onMouseLeave={e => { e.currentTarget.style.transform='translateY(0)'; }}
-          >✦ Enroll Now</a>
-        </div>
-        <button className={`hbg${menuOpen?' open':''}`} onClick={e=>{e.stopPropagation();setMenuOpen(o=>!o);}} aria-label="Menu" style={{ display:'none' }}>
-          <span/><span/><span/>
-        </button>
-        <div className={`mnav${menuOpen?' open':''}`} onClick={e=>e.stopPropagation()}>
-          {['About','Courses','Testimonials','Contact'].map(l=>(
-            <a key={l} href={`#${l.toLowerCase()}`} onClick={()=>setMenuOpen(false)}>{l}</a>
-          ))}
-          <a href="https://docs.google.com/forms/d/..." className="eb" onClick={()=>setMenuOpen(false)}>✦ Enroll Now</a>
+          <a 
+  href="tel:8590012229"
+  className="dm" 
+  style={{
+    background:'linear-gradient(135deg,#2d8a44,#3da355)',
+    color:'#fff',
+    fontWeight:600,
+    fontSize:12,
+    letterSpacing:'.1em',
+    textTransform:'uppercase',
+    textDecoration:'none',
+    padding:'10px 20px',
+    borderRadius:8,
+    boxShadow:'0 4px 14px rgba(45,138,68,.3)',
+    transition:'all .25s',
+    display:'flex',
+    alignItems:'center',
+    gap:6
+  }}
+  onMouseEnter={e => { e.currentTarget.style.transform='translateY(-1px)'; }}
+  onMouseLeave={e => { e.currentTarget.style.transform='translateY(0)'; }}
+>
+  ✦ Call Us Now
+</a>
         </div>
       </nav>
 

@@ -175,7 +175,7 @@ export default function Home() {
           <span className="dm" style={{ color:'#fff',fontSize:13,fontWeight:500 }}>
             🌙 <strong style={{ color:'#e9bc2f' }}>Vacation Dini Classes 2026</strong> — April 6 · Ambalathara, Trivandrum
           </span>
-          <a href="https://docs.google.com/forms/d/..." className="dm" style={{ background:'#e9bc2f',color:'#1a1a1a',fontWeight:700,fontSize:11,letterSpacing:'.12em',textTransform:'uppercase',textDecoration:'none',padding:'5px 14px',borderRadius:99,whiteSpace:'nowrap' }}>Register Free →</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdayn2w_JujPQQoVM6vOwJ2z-wr7Bv24uj7X5TitBzXjtQhug/viewform?usp=publish-editor" className="dm" style={{ background:'#e9bc2f',color:'#1a1a1a',fontWeight:700,fontSize:11,letterSpacing:'.12em',textTransform:'uppercase',textDecoration:'none',padding:'5px 14px',borderRadius:99,whiteSpace:'nowrap' }}>Register Free →</a>
         </div>
       </div>
 
@@ -390,7 +390,7 @@ export default function Home() {
 
           {/* CTA buttons */}
           <div className="pctas" style={{ display:'flex', gap:12, justifyContent:'center', flexWrap:'wrap' }}>
-            <a href="https://docs.google.com/forms/d/..." style={{
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdayn2w_JujPQQoVM6vOwJ2z-wr7Bv24uj7X5TitBzXjtQhug/viewform?usp=publish-editor" style={{
               display:'inline-flex', alignItems:'center', justifyContent:'center', gap:10,
               background:'linear-gradient(135deg,#c4a006,#e9bc2f)',
               color:'#0a1a0f', fontFamily:"'DM Sans',sans-serif", fontWeight:700,

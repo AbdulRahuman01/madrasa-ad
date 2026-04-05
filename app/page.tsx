@@ -647,7 +647,7 @@ export default function Home() {
             © {new Date().getFullYear()} Ummul Qura Institute of Islamic Studies · Ambalathara, Trivandrum
           </p>
           <div className="fl" style={{ display:'flex',gap:18 }}>
-            {['About','Courses','Contact'].map(l=>(
+            {['About','Course','Contact'].map(l=>(
               <a key={l} href={`#${l.toLowerCase()}`} className="dm" style={{ fontSize:12,color:'rgba(255,255,255,.32)',textDecoration:'none',letterSpacing:'.1em',transition:'color .2s' }}
                 onMouseEnter={e=>(e.target as HTMLElement).style.color='#e9bc2f'}
                 onMouseLeave={e=>(e.target as HTMLElement).style.color='rgba(255,255,255,.32)'}

@@ -173,7 +173,7 @@ export default function Home() {
       <div style={{ background:'linear-gradient(90deg,#1e5c2d,#2d8a44,#1e5c2d)',backgroundSize:'200% 100%',animation:'gradS 5s ease infinite',padding:'9px 20px' }}>
         <div className="strip-r" style={{ display:'flex',alignItems:'center',justifyContent:'center',gap:16,flexWrap:'wrap' }}>
           <span className="dm" style={{ color:'#fff',fontSize:13,fontWeight:500 }}>
-            🌙 <strong style={{ color:'#e9bc2f' }}>Vacation Dini Classes 2026</strong> — April 6 · Ambalathara, Trivandrum
+            🌙 <strong style={{ color:'#e9bc2f' }}>Vacation Deeni Classes 2026</strong> — April 6 · Ambalathara, Trivandrum
           </span>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdayn2w_JujPQQoVM6vOwJ2z-wr7Bv24uj7X5TitBzXjtQhug/viewform?usp=publish-editor" className="dm" style={{ background:'#e9bc2f',color:'#1a1a1a',fontWeight:700,fontSize:11,letterSpacing:'.12em',textTransform:'uppercase',textDecoration:'none',padding:'5px 14px',borderRadius:99,whiteSpace:'nowrap' }}>Register Free →</a>
         </div>
@@ -249,7 +249,7 @@ export default function Home() {
             <FadeIn delay={0.18}>
               <div>
                 <p className="dm" style={{ fontSize:16,color:'#555',lineHeight:2,marginBottom:18,fontWeight:300 }}>
-                  <strong style={{ color:'#1a1a1a',fontWeight:600 }}>Ummul Qura Institute of Islamic Studies</strong> is a newly established centre of Islamic learning in Ambalathara, Trivandrum — founded with the vision of making authentic Dini education <em>accessible, structured, and joyful</em> for every child.
+                  <strong style={{ color:'#1a1a1a',fontWeight:600 }}>Ummul Qura Institute of Islamic Studies</strong> is a newly established centre of Islamic learning in Ambalathara, Trivandrum — founded with the vision of making authentic Deeni education <em>accessible, structured, and joyful</em> for every child.
                 </p>
                 <p className="dm" style={{ fontSize:16,color:'#555',lineHeight:2,marginBottom:32,fontWeight:300 }}>
                   With a curriculum rooted in the Quran and Sunnah, we nurture children to become confident, morally grounded, and spiritually connected young Muslims — equipping them not just with knowledge, but with wisdom and love for their Deen.
@@ -294,7 +294,7 @@ export default function Home() {
               Ummul Qura Institute of Islamic Studies
             </p>
             <p className="dm u3" style={{ fontSize:15,color:'#777',lineHeight:1.85,marginBottom:36,fontWeight:300,maxWidth:460 }}>
-              A new centre of Islamic learning in Ambalathara, Trivandrum — offering structured, joyful, and authentic Dini education for children and youth.
+              A new centre of Islamic learning in Ambalathara, Trivandrum — offering structured, joyful, and authentic Deeni education for children and youth.
             </p>
             <div className="u4 bgrp" style={{ display:'flex',gap:14,flexWrap:'wrap' }}>
               <a href="#vacation-camp" className="btn-green">View Vacation Camp ↓</a>
@@ -352,7 +352,7 @@ export default function Home() {
 
         {/* The poster — no crop, no overlay, fully visible edge to edge */}
         <div className="pimg-wrap">
-          <img src="/poster.jpeg" alt="Ummul Qura Vacation Dini Camp 2026 — അവധിക്കാല ദീനി പഠന ക്യാമ്പ്" />
+          <img src="/poster.jpeg" alt="Ummul Qura Vacation Deeni Camp 2026 — അവധിക്കാല ദീനി പഠന ക്യാമ്പ്" />
         </div>
       </section>
 
@@ -463,7 +463,7 @@ export default function Home() {
           <div className="reg-r" style={{ display:'flex',alignItems:'flex-start',gap:48,flexWrap:'wrap' }}>
             <div style={{ flex:1,minWidth:0 }}>
               <h2 className="el" style={{ fontSize:'clamp(22px,4vw,44px)',fontWeight:700,color:'#1a1a1a',lineHeight:1.1,marginBottom:14 }}>
-                Regular <span style={{ color:'#2d8a44' }}>Dini</span> <span style={{ color:'#c4a006' }}>Classes</span><br/>
+                Regular <span style={{ color:'#2d8a44' }}>Deeni</span> <span style={{ color:'#c4a006' }}>Classes</span><br/>
                 <span style={{ fontSize:'.58em',color:'#777',fontWeight:400,fontFamily:"'Amiri',serif",fontStyle:'italic' }}>Year-Round Islamic Education</span>
               </h2>
               <p className="dm" style={{ fontSize:15,color:'#666',lineHeight:1.85,fontWeight:300,maxWidth:440,marginBottom:22 }}>
@@ -475,7 +475,7 @@ export default function Home() {
                 ))}
               </div>
               <div className="bgrp" style={{ display:'flex',gap:12,flexWrap:'wrap' }}>
-                <a href="https://docs.google.com/forms/d/..." className="btn-green">📋 Pre-Register for June</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdu6ILTndGb3WecGPmZp0-KNztnWCYCQigswCIRJH1bAUKGZg/viewform" className="btn-green">📋 Pre-Register for June</a>
                 <a href="tel:+918590012229" className="btn-og">📞 Call to Know More</a>
               </div>
             </div>
